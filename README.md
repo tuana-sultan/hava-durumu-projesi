@@ -40,33 +40,17 @@ HAVA DURUMU PROJESİ/
 
 ---
 
-## 🔐 API Key Kullanımı (Önemli)
+## 🔐 API Key Kullanımı 
 
 Bu proje **public (herkese açık)** bir GitHub reposu olduğu için **API key güvenliği** dikkate alınmıştır.
 
 * Gerçek API key **GitHub'a eklenmemiştir** ❌
 * API key, `.gitignore` ile gizlenen `config.js` dosyasında tutulur
 
-### 🔧 Lokal Çalıştırmak İçin:
-
-1. `config.example.js` dosyasını kopyalayın
-2. Dosya adını `config.js` olarak değiştirin
-3. İçine kendi OpenWeather API key'inizi ekleyin:
-
-```js
-const CONFIG = {
-  API_KEY: "API_KEYINIZ"
-};
-```
-
 ---
+## 📷 Ekran Görüntüsü
 
-## ▶️ Projeyi Çalıştırma
-
-1. Bu repoyu bilgisayarınıza indirin veya klonlayın
-2. Yukarıdaki adımlarla `config.js` dosyasını oluşturun
-3. `index.html` dosyasını tarayıcıda açın
-
+![Hava Durumu Uygulaması](screenshot.png)
 ---
 
 ## 👩‍💻 Geliştirici
